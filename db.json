@@ -1,0 +1,96 @@
+
+{
+	"consents": [
+	  {
+		"permissions": {
+		  "property1": {
+			"allow": true,
+			"recipient": "mads@amahdya.com",
+			"type": "email"
+		  },
+		  "property2": {
+			"allow": true,
+			"recipient": "23568956",
+			"type": "phone"
+		  }
+		},
+		"origin": "string",
+		"id": "string",
+		"identity": {
+			"osm_order_id": 0,
+			"firstname": "Mads",
+			"lastname": "Blommmme",
+			"address_line1": "Toppen 10",
+			"address_line2": "",
+			"postcode": "9000",
+			"city": "Aalborg"
+		},
+		"origin_meta": {},
+		"updated_at": "2022-04-29T07:53:02.741107+00:00",
+		"created_at": "2022-04-29T07:53:02.741171+00:00"
+	  },
+	  {
+		"permissions": {
+		  "property1": {
+			"allow": false,
+			"recipient": "team@test.com",
+			"type": "email"
+		  },
+		  "property2": {
+			"allow": false,
+			"recipient": "string",
+			"type": "phone"
+		  }
+		},
+		"origin": "string",
+		"id": "string",
+		"identity": {
+			"osm_order_id": 0,
+			"firstname": "John",
+			"lastname": "Doe",
+			"address_line1": "Slet 32",
+			"address_line2": "",
+			"postcode": "8000",
+			"city": "Aarhus C"
+		},
+		"origin_meta": {},
+		"updated_at": "2022-04-29T07:53:02.741107+00:00",
+		"created_at": "2022-04-29T07:53:02.741171+00:00"
+	  },
+	  {
+		"permissions": {
+		  "property1": {
+			"allow": true,
+			"recipient": "hajen@shark.dk",
+			"type": "email"
+		  },
+		  "property2": {
+			"allow": true,
+			"recipient": "12345678",
+			"type": "phone"
+		  }
+		},
+		"origin": "string",
+		"id": "1",
+		"identity": {
+			"osm_order_id": 0,
+			"firstname": "Hanne",
+			"lastname": "Yansen",
+			"address_line1": "Galte 56",
+			"address_line2": "",
+			"postcode": "5600",
+			"city": "Megacity 1"
+		},
+		"origin_meta": {},
+		"updated_at": "2022-04-29T07:53:02.741107+00:00",
+		"created_at": "2022-04-29T07:53:02.741171+00:00"
+	  }
+	],
+    "posts": [
+    {
+      "billingAccountNumber": 1,
+      "title": "Post 1"
+    }
+  ]
+
+}
